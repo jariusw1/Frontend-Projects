@@ -1,5 +1,5 @@
-# frontend-projects
-Frontend projects made in coursework during my time at UCF
+# Frontend-Projects
+Frontend projects made in coursework during my time at UCF to show my proficiency in HTML, CSS, and Javascript
 
 These assignments consist of: 
 
