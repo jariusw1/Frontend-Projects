@@ -1,0 +1,94 @@
+/* Using -- to apply for everything */
+:root {
+    --accent-color: #FF3B3F;
+	--accent-dark-color: #EF2B2F;
+	--font-color: #b4a3a3;
+	--bg-color: #CAEBF2;
+	}
+	
+body {
+    background-color: white;
+	font-family: Helvetica, sans-serif;
+	color: var (--font-color);
+	}
+	
+main {
+    background-color: (--bd-color);
+	margin: 0;
+	padding: 5px 10px;
+	
+}
+/* Links */ 
+a:link {
+    color: var(--font-color);
+}
+
+a:visited {
+    color: var(--font-color);
+}
+
+a:hover {
+     color: var(--accent-color);
+}
+
+a:active {
+     color: var(--accent-color);
+}
+/* Header */
+h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(43, 41, 41);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+div {
+  max-width:800px;
+  margin: auto;
+}
+/* Use of flexbox */
+.container {
+  display: flex; 
+  background: var(--accent-dark-color);
+  justify-content: space-around;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background: #CAEBF2;
+}
+/* Centered body info */
+body {
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: Arial, sans-serif; 
+  color: white;    
+}
+
+.item {
+  background: lightgrey;
+  text-align: center;
+  margin: 5px;
+  flex-grow: 1;
+  color: black;
+}
+
+dl, dt, dd {
+  text-align: center;
+  margin: 2px;
+}
+
+dt {
+  text-decoration: underline;
+}
